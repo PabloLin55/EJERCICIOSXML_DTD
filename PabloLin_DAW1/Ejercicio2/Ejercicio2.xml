@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Pablo Lin
+Curso: 1DAW 
+Fecha: 1/04/2025 
+Ejercicio: XML_DTD2 
+-->
+<!DOCTYPE liga_baloncesto SYSTEM "Ejercicio2DTD.dtd">
+<liga_baloncesto>
+<!--Información sobre jugadores de la NBA-->
+    <Jugador>
+        <nombre>Lebron</nombre>
+        <apellido>James</apellido>
+        <!--Información sobre el equipo del jugador-->
+        <equipo ciudad="Los Ángeles">
+            <presidente>
+                <nombrePresidente>Jeanie</nombrePresidente>
+                <apellidoPresidente>Buss</apellidoPresidente>
+            </presidente>
+        </equipo>
+        <edad>40</edad>
+    </Jugador>
+
+    <Jugador>
+        <nombre>Luka</nombre>
+        <apellido>Doncic</apellido>
+        <equipo ciudad="Los Ángeles">
+            <presidente>
+                <nombrePresidente>Jeanie</nombrePresidente>
+                <apellidoPresidente>Buss</apellidoPresidente>
+            </presidente>
+        </equipo>
+        <edad>26</edad>
+    </Jugador>
+
+    <Jugador>
+        <nombre>Fred</nombre>
+        <apellido>VanVleet</apellido>
+        <equipo ciudad="Houston">
+            <presidente>
+                <nombrePresidente>Rafael</nombrePresidente>
+                <apellidoPresidente>Stone</apellidoPresidente>
+            </presidente>
+        </equipo>
+        <edad>31</edad>
+    </Jugador>
+</liga_baloncesto>

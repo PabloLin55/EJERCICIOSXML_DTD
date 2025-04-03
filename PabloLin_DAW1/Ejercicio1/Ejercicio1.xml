@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Pablo Lin
+Curso: 1DAW 
+Fecha: 1/04/2025 
+Ejercicio: XML_DTD1 
+-->
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro*)>
+    <!ELEMENT libro (titulo, editorial, autor, numPaginas)>
+    <!ELEMENT autor (nombre, apellido)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT numPaginas (#PCDATA)>
+]>
+
+<biblioteca>
+<!--Información sobre los libros-->
+    <libro>
+        <titulo>Un matrimonio imposible</titulo>
+        <editorial>rubric</editorial>
+
+        <autor>
+        <nombre>Tamara</nombre>
+        <apellido>Marín</apellido>
+        </autor>
+
+        <numPaginas>247</numPaginas>
+    </libro>
+
+    <libro>
+        <titulo>Tu vida en mi caja</titulo>
+        <editorial>Edicions Locals</editorial>
+        <autor>
+        <nombre>Lara</nombre>
+        <apellido>Isabel Perez Beltrán</apellido>
+        </autor>
+        <numPaginas>449</numPaginas>
+    </libro>
+
+    <libro>
+        <titulo>El último viaje a casa</titulo>
+        <editorial>Independently published</editorial>
+        <autor>
+        <nombre>Marie</nombre>
+        <apellido>J. Cisa</apellido>
+        </autor>
+        <numPaginas>536</numPaginas>
+    </libro>
+</biblioteca>
